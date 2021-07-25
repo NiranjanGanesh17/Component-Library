@@ -1,0 +1,42 @@
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+
+export const NButtonStyles = makeStyles((theme: Theme) =>
+    createStyles({
+        primaryMedium:{
+borderRadius:'25px',
+width:'120px',
+height:'50px',
+background:theme.palette.primary.main
+        },
+        primarySmall:{
+            borderRadius:'25px',
+            width:'100px',
+            height:'40px',
+            background:theme.palette.primary.main
+                    },
+                    primaryLarge:{
+                        borderRadius:'30px',
+                        width:'140px',
+                        height:'60px',
+                        background:theme.palette.primary.main
+                                },
+                                secondaryMedium:{
+                                    borderRadius:'25px',
+                                    width:'120px',
+                                    height:'50px',
+                                    background:theme.palette.secondary.main
+                                            },
+                                            secondarySmall:{
+                                                borderRadius:'25px',
+                                                width:'100px',
+                                                height:'40px',
+                                                background:theme.palette.secondary.main
+                                                        },
+                                                        secondaryLarge:{
+                                                            borderRadius:'30px',
+                                                            width:'140px',
+                                                            height:'60px',
+                                                            background:theme.palette.secondary.main
+                                                                    },
+    })
+)
